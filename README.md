@@ -15,6 +15,7 @@ To download the datasets, run the ```data.sh``` bash script, or visit the URLs.
 
 ## Run
 
+Install the dependencies in a virtual environment from the ```environment.yml``` file.
 To run the HyperBall algorithm on a dataset with a certain precision (defined by the number of bits in the registers of the HyperLogLogCounters), run:
 
 ```
