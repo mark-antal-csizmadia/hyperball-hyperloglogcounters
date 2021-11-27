@@ -2,6 +2,7 @@
 
 Mining data streams in the context of counting distinct elements in streams. The application is harmonic centrality estimation on streamed graph data with the [HyperBall algorithm](https://arxiv.org/pdf/1308.2144v2.pdf).
 The HyperBall algorithm relies on [HyperLogLogCounters](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf) for estimating the set size of distinct elements in data stream.
+The HyperBall algorithm is from the paper titled "In-Core Computation of Geometric Centralities with HyperBall: A Hundred Billion Nodes and Beyond" and the HyperLogLogCounter algorithm is from the paper titled "HyperLogLog: the analysis of a near-optimal cardinality estimation algorithm".
 
 ## Algorithm
 
