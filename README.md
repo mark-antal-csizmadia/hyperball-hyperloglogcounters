@@ -116,4 +116,5 @@ As the tables show, HyperBall has a very low discrepancy when compared to the tr
 When run on the wiki dataset (approximately 7x nodes and 4x edges), its execution time is approx. x10, while the execution time of networkx is approx. x20. The accuracies remain comparable across datasets regardless of the graph size.
 The tendencies are a follows:
 - the parameter ```b``` affects the number of registers of the HyperLogLogCounters in the HyperBall algorithm, therefore the accuracy of the algorithm. Higher ```b``` results in more accurate estimates of the harmonic centralities of the nodes
-- the execution time slowly increases as the graph size increases - which is one of teh points of teh HyperBall algorithm 
+- the execution time slowly increases as the graph size increases - which is one of teh points of teh HyperBall algorithm
+- HyperBall requires low in-memory storage of variables (not investigated here)
